@@ -8,8 +8,8 @@ app.use(cors()); // Enable CORS for all routes
 const posts = []; // Initialize posts as an empty array
 
 // Your Amadeus API credentials
-const client_id = 'URIAB8DjF9oa9l5YwwmPCefHSKyxdwe8'; // Replace with your actual client_id 
-const client_secret = 'qGPq8rzHct0o254A'; // Replace with your actual client_secret 
+const client_id = 'put your api id here'; // Replace with your actual client_id 
+const client_secret = 'put your api secret here'; // Replace with your actual client_secret 
 
 const getToken = async () => {
   try {
